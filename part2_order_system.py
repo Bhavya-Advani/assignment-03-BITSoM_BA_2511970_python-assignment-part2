@@ -12,7 +12,7 @@ menu = {
     "Ice Cream":      {"category": "Desserts",  "price": 110.0, "available": False},
 }
 
-print("\nTask 1 — Explore the Menu")
+print("\n Explore the Menu")
 
 categories = sorted({data['category'] for data in menu.values()})
 for cat in categories:
@@ -191,8 +191,7 @@ sales_log = {
     ],
 }
 
-# Task 8 — Daily Sales Log Analysis
-print("\nTask 8 — Daily Sales Log Analysis")
+print("\n Daily Sales Log Analysis")
 
 # Total revenue per day
 revenue_per_day = {}
